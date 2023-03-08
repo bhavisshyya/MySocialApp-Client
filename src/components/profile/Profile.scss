@@ -1,0 +1,57 @@
+.Profile{
+    // height: 100vh;
+    margin-top: 42px;
+    .container{
+        display: flex;
+        gap: 20px;
+
+
+        .left-part{
+            flex:2;
+            // background-color: red;
+           overflow-y: auto;
+        }
+
+        .right-part{
+            flex: 1;
+            // background-color: green;
+            margin-top: 17.5px;
+
+            
+            .profile-card{
+                border: 1px solid rgb(104, 104, 104);
+                border-radius: 4px;
+                text-align: center;
+                padding: 20px;
+
+                .user-Img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                }
+
+                .user-name , .follower-info{
+                    margin-top: 12px;
+                }
+
+                .following-info{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 40px;
+                }
+
+                .follow ,.update-profile{
+                    margin-top: 14px;
+                    display: inline-block;
+                }
+            }
+           
+        } 
+    }
+}
+
+.follow-link{
+    color: var(--accent-color);
+    
+}

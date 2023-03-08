@@ -1,0 +1,33 @@
+.Navbar{
+    position: fixed;
+    width: 100%;
+    
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid grey;
+    background: linear-gradient(#fff0f0, #d3f6ff);    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        // background-color: rgba(222, 101, 101, 0.807);
+    }
+
+    .right-side{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .logout{
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logout:hover{
+            color: red;
+        }
+    }
+}

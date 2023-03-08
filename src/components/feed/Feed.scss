@@ -1,0 +1,35 @@
+.Feed{
+    // height: 100vh;
+    margin-top: 42px;
+    // background-color: whitesmoke;
+    .container{
+        display: flex;
+        gap: 20px;
+        overflow: hidden;
+
+
+        .left-part{
+            flex:2;
+            // background-color: red;
+           overflow-y: auto;
+        }
+
+        .right-part{
+            flex: 1;
+            // background-color: green;
+            margin-top: 20px;
+           
+
+            .suggesstion{
+                // border: 1px solid var(--border-color);
+                padding: 10px;
+                margin-top: 40px;
+                // background-color: whitesmoke;
+            }
+
+            .title{
+                margin-bottom: 12px;
+            }
+        } 
+    }
+}
